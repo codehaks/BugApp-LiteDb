@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27729.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugApp", "BugApp.csproj", "{DAEB17FC-99F1-4B17-B165-78885BC6D9D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAEB17FC-99F1-4B17-B165-78885BC6D9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEB17FC-99F1-4B17-B165-78885BC6D9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEB17FC-99F1-4B17-B165-78885BC6D9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEB17FC-99F1-4B17-B165-78885BC6D9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84F3488E-51BA-40B2-92C5-36EF8ACC4CE3}
+	EndGlobalSection
+EndGlobal

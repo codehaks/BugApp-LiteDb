@@ -1,0 +1,41 @@
+﻿@page
+
+
+@model IndexModel
+
+
+<a asp-page="create" class="btn btn-primary">Create</a>
+       
+    
+     
+
+     <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+     
+      <th scope="col">Description</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach(var bug in Model.Bugs){
+
+         <tr>
+     
+      <td>@bug.Name</td>
+      <td>@bug.Description</td>
+      <td> 
+        <a asp-page="details" asp-route-id="@bug.Id" class="btn btn-light"> Details</a>
+        <a asp-page="delete" asp-route-id="@bug.Id" class="btn btn-danger"> Delete</a> 
+      
+      </td>
+    </tr>
+
+       
+      }
+
+   
+   
+  </tbody>
+</table>

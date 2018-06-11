@@ -1,0 +1,13 @@
+﻿@page
+@model DeleteModel
+@{
+}
+
+<h3>@Model.Bug.Name</h3>
+<p>@Model.Bug.Description</p>
+
+ <form method="post">
+    <input asp-for="Bug.Id" hidden />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-page="index" class="btn btn-link">Back to list</a>
+</form>
